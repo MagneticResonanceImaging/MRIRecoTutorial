@@ -1,0 +1,23 @@
+##TITLE= /disk2/d_tgn/exp/stan/nmr/lists/wave/Rectangle
+##JCAMP-DX= 5.00 Bruker JCAMP library
+##DATA TYPE= Shape Data
+##ORIGIN= Bruker Analytik GmbH
+##OWNER= <tgn>
+##DATE= 99/11/04
+##TIME= 13:33:42
+##MINX= 1.000000e+02
+##MAXX= 1.000000e+02
+##MINY= 0.000000e+00
+##MAXY= 0.000000e+00
+##$SHAPE_EXMODE= Excitation
+##$SHAPE_TOTROT= 9.000000e+01
+##$SHAPE_BWFAC= 1.28000e+00
+##$SHAPE_INTEGFAC= 1.000000e+00
+##$SHAPE_REPHFAC=50
+##$SHAPE_TYPE=conventional
+##$SHAPE_MODE= 0
+##NPOINTS= 2
+##XYPOINTS= (XY..XY)
+1.000000e+02, 0.000000e+00
+1.000000e+02, 0.000000e+00
+##END= 

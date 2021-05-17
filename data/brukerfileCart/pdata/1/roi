@@ -1,0 +1,26 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=nmrsu
+$$ 2019-04-04 11:45:42.299 +0200  nmrsu@CZC4170WT4
+$$ /opt/PV6.0.1/data/nmrsu/20190404_095244_mk190404_1_1/2/pdata/1//roi
+$$ process /opt/PV6.0.1/prog/mod/xtip
+##$ROI_version=( 20 )
+<Version 2.0>
+##$ROI_n=1
+##$ROI_par=( 1 )
+(RoiSquare, <>, 4, 0, 0, -1)
+##$ROI_dpar=( 4 )
+0.5 0.5 0.1 0.1
+##$ROI_dpar_off=( 1 )
+0
+##$ROI_cpar_off=( 1 )
+0
+##$ROI_ndx=0
+##$ROI_dpar_ndx=( 4 )
+0.5 0.5 0.1 0.1
+##$ROI_cpar_ndx=( 1 )
+<>
+##END=
+$$ File finished by PARX at 2019-04-04 11:45:42.299 +0200

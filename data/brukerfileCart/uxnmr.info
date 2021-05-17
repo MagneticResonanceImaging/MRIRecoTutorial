@@ -1,0 +1,88 @@
+CONFIGURATION INFORMATION
+=========================
+
+Path         : /opt/PV6.0/conf/instr/spect/uxnmr.info
+Date         : Thu Dec 11 11:17:29 2014
+Release      : TopSpin Acquisition Version 3.1PV beta-pl0
+Installed in : /opt/PV6.0
+Host         : CZC4170WT4
+OS           : CentOS release 5.10 (Final)
+CPU          : Intel(R) Xeon(R) CPU E5-1620 v2 @ 3.70GHz (8 cores at 1200 MHz with Hyperthreading)
+User         : nmrsu (NMR Administrator (nmrsu))
+Description  : Demo System
+Location     : Bruker
+System       : Avance III NMR spectrometer
+1H-frequency : 44.80 MHz
+Order Number : GODMODE
+Configured in: /opt/PV6.0/conf/instr/spect
+
+IPSO: connected to spectrometer subnet
+- TCP/IP address = 149.236.99.246
+ - IPSO type: AQS
+- Tctrl : 1
+- Fctrls: 1
+- Gctrl1: with digital preemphasis
+- Rctrl : 1
+- FREDs : 1
+- DPP : 1
+
+DRU: AQS DRU-E Z102520/03661 ECL 07.00
+- TCP/IP address = 149.236.99.89
+- Firmware Version = 131003
+- DRU controls AQS-Rack and HPPR/2
+
+AQS: connected to 149.236.99.89:/dev/tty10
+  _Slot_ SBSB _____________________Board_____________________
+  Number Addr Type HW-VS FW-VS ID  ECL Name   Description
+  -----------------------------------------------------------
+     2   0x10 0x72   0x4    AV  R  5.1 REC-1  AQS RXAD400 Z102116/2808 ECL 05.01
+     3   0x34  0x2   0x1        X  5.3 REF-1  REF-400 Reference Board for AQS Receiver
+     4   0x24 0x11   0x8    AD  S  2.7 SGU-1  AQS SGU/2 400 Z103080/03643 ECL 02.07 FPGA-Vs=AF
+     9   0x36 0x92     0        A  0.0 BLA-1  AQS BLA200 42.5MHz W1346829/0034 ECL 0
+    21   0x21 0xcf     0        P  1.0 PSD-1  PSD/3 Power Supply Distribution Board
+    --   0x20 0xd1     0        B  3.2 MASTER AQS/3 Chassis
+     1   0x20  0x7     0        B      MASTER AQS Rack Master
+
+
+Router: none installed
+
+Amplifiers (AQS configuration):
+  RO  Amplifier  Module  Nucleus  Power/W  Switchbox Name PN/SN/FW
+   1      1         1       1H      200    N         AQS BLA200 42.5MHz W1346829/34/-
+
+
+Gradient amplifiers at the spectrometer subnet:
+----------------------------------------------
+BGA1: BGAU_W115818_0204
+- TCP/IP address   = 149.236.99.247
+- Firmware version = 20130325
+- Web version      = 5.1
+- Current limits   = 0.0/X, 0.0/Y, 0.0/Z (in A)
+
+Preamplifiers :
+HPPR: - HPPR/2 preamplifier connected to 149.236.99.89:/dev/tty10
+    Type      : HPPR/2
+    Controller: Application firmware = aQ
+                no LED display for tuning and matching
+    Module  1 : 1H
+                 PN=Z124744, SN=00013 from 20120628
+
+
+Frequency generation:
+- F1: for SGU
+
+
+
+RF cable connections (assumed)
+--------------------------------------------------------------------
+SGU1 NORM output -> input 1 of transmitter 1 (AQS BLA200 42.5MHz W1346829/34)
+SGU1 AUX  output -> open
+
+Blanking cable connections (assumed)
+--------------------------------------------------------------------
+transmitter 1 (AQS BLA200 42.5MHz W1346829/34) amplifier 1H-200W uses blanking 1
+
+Preamplifier connections (detected by 'confrecpre')
+--------------------------------------------------------------------
+Tune-SGU1 -> 1H -> REC1
+
