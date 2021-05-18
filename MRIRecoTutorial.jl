@@ -78,8 +78,8 @@ md"""
 ## Getting Started
 
 This tutorial can be used and run in two ways:
-* You can directly use Pluto notebook you are reading right now. This needs some preparation discussed next.
-* You can also copy/past into a Julia REPL. This is in particular a good way if you are reading an HTML or PDF version of this tutorial.
+* You can directly use the Pluto notebook you are reading right now. This needs some preparation discussed next.
+* You can also copy/paste into a Julia REPL. This is in particular a good way if you are reading an HTML or PDF version of this tutorial.
 * Keep in mind that this notebook will run all cells, which needs some time since we also showcase some more computationally intensive methods.
 """
 
