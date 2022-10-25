@@ -1,6 +1,9 @@
 # MRIRecoTutorial
 Tutorial on the Julia Package MRIReco.jl
 
+> **Warning**
+> This tutorial is outdated and uses an old version of Julia and MRIReco.jl. We have transfered all content to the [MRIReco.jl documentation](https://magneticresonanceimaging.github.io/MRIReco.jl/latest/).
+
 ## Getting Started
 
 This tutorial can be used and run in two ways:
